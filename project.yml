@@ -1,0 +1,22 @@
+name: MagicBall
+options:
+  bundleIdPrefix: com.testapp
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  MagicBall:
+    type: application
+    platform: iOS
+    sources: [MagicBall]
+    info:
+      path: MagicBall/Info.plist
+      properties:
+        CFBundleDisplayName: Magic Ball
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.testapp.magicball
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
